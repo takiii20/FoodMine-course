@@ -22,4 +22,55 @@ ul li a{
 li a:hover{
     opacity: 0.9;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+
+.favorite.not{
+    color: gray;
+}
+
+.stars{
+    margin-bottom: .2rem;
+}
+
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.origins{
+    flex: 9;
+}
+
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 15px;
+    color: gray;
+    margin-right: .3rem;
+}
+
+.cook-time{
+    font-size: 18px;
+    flex: 3;
+    text-align: right;
+}
+
+.price{
+    color: #414141;
+    margin-top: .7rem;
 }
