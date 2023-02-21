@@ -1,4 +1,5 @@
 <app-search></app-search>
+<app-tags></app-tags>
 <ul>
     <li *ngFor="let food of foods">
         <a href="#">
@@ -11,12 +12,12 @@
                     ❤
                 </span>
                 <div class="stars">
-                    <star-rating 
-                    [value]="food.stars" 
-                    [totalstars]="5" 
-                    checkedcolor="red" 
-                    uncheckedcolor="black" 
-                    size="18px" 
+                    <star-rating
+                    [value]="food.stars"
+                    [totalstars]="5"
+                    checkedcolor="red"
+                    uncheckedcolor="black"
+                    size="18px"
                     [readonly]="true">
                 </star-rating>
                 </div>
