@@ -103,3 +103,7 @@ ul .remove-button:hover{
   content: 'Price: ';
   color: gray;
 }
+
+a{
+  color: black;
+}

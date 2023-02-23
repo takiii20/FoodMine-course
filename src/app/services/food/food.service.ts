@@ -20,7 +20,7 @@ export class FoodService {
 
   getAllTags():Tag[]{
     return[
-      { name: 'All', count: 14 },
+      { name: 'All', count: 6 },
       { name: 'FastFood', count: 4 },
       { name: 'Pizza', count: 2 },
       { name: 'Lunch', count: 3 },
